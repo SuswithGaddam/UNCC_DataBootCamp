@@ -1,0 +1,3 @@
+bio = {"name": "Suswith Gaddam", "age": "30", "hobbies":["Netflix", "Coding", "Photography"], "wakeupTime":{"monday":"6.30 am", "Tuesday": "7.00 am", "wednesday": "6.30 am", "thursday": "6.30 am", "friday": "6.30 am", "satyrday": "7.00 am", "sunday": "9.00 am"}}
+
+print(f'{bio["name"]} is {bio["age"]} years old and loves to spend time on {bio["hobbies"][2]} when he wakesup sometime like {bio["wakeupTime"]["monday"]}')
